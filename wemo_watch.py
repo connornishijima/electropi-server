@@ -1,10 +1,13 @@
 import os
 import time
 
+with open("/etc/ep.root") as f:
+        rootDir = f.read().strip("\n")
+
 #//////////////////////////////////////////////
 # READ SINGLE SETTING FUNCTION...
 def readSetting(searchName):
-        with open("/var/www/conf/settings.conf") as f:
+        with open(rootDir+"/conf/settings.conf") as f:
                 confString = f.readlines()
         try:
                 for item in confString:
@@ -22,9 +25,11 @@ def readSetting(searchName):
 
 #//////////////////////////////////////////////
 
+os.chdir(rootDir)
+
 while True:
 	time.sleep(1)
 	wemoSupport = readSetting("WEMO_SUPPORT")
 	if wemoSupport == "ENABLED":
 		print "LAUNCHING WEMO WATCHDOG..."
-		os.system("sudo python /var/www/wemo.py")
+		os.system("sudo python wemo.py")

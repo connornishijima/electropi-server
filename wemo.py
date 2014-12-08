@@ -6,7 +6,9 @@ import sys
 from ouimeaux.environment import Environment
 import urllib2
 
-os.chdir("/var/www")
+with open("/etc/ep.root") as f:
+        rootDir = f.read().strip("\n")
+os.chdir(rootDir)
 os.system("sudo wemo clear")
 global pidTime
 pidTime = 0
@@ -14,7 +16,7 @@ pidTime = 0
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
-        self.log = open("/var/www/logs/wemo_watch.log", "a")
+        self.log = open(rootDir+"/logs/wemo_watch.log", "a")
 
     def write(self, message):
         self.terminal.write(message)

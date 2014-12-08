@@ -5,13 +5,16 @@ import os
 import psutil
 import sys
 
+with open("/etc/ep.root") as f:
+	rootDir = f.read().strip("\n")
+
 os.nice(20)
-os.chdir("/var/www")
+os.chdir(rootDir)
 
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
-        self.log = open("/var/www/logs/client_watch.log", "a")
+        self.log = open(rootDir+"/logs/client_watch.log", "a")
 
     def write(self, message):
         self.terminal.write(message)

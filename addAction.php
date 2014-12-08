@@ -1,8 +1,10 @@
 <?php
 
+// include settings.php to access conf/settings.conf
 include("settings.php");
 $wemoSupport = readSetting("WEMO_SUPPORT");
 
+// This generates a unique ID for each action of 10 characters
 function generateUID($length = 10){
                 $chars = '0123456789ABCDEFGHIJIKLMNOPQRSTUVWXYZ';
                 $randomString = '';
@@ -13,7 +15,6 @@ function generateUID($length = 10){
         }
 
 $actionUID = generateUID();
-
 $actionString = "#--$actionUID--\n";
 
 if(isset($_GET["actionName"])){
@@ -24,9 +25,11 @@ if(isset($_GET["actionName"])){
 		}
 	}
 	touch("conf/actions/$actionUID.txt");
+	// Add actions data to file
 	file_put_contents("conf/actions/$actionUID.txt", (string)$actionString, LOCK_EX);
 	$actionsList = file_get_contents("conf/actions/actions.list");
 	$actionsList = $actionsList . $actionName . "|" . $actionUID . "\n";
+	// Add action file to list
 	file_put_contents("conf/actions/actions.list", $actionsList, LOCK_EX);
 	header("Location: index.php");
 }
@@ -39,8 +42,11 @@ $offColor = readSetting("OFFCOLOR");
 
 $notification = trim(file_get_contents("misc/notification.txt"));
 
+// Read list of all RF switches
 $subject = file_get_contents("conf/appliances.txt");
 
+
+// If no switches are set up, let's add a new one.
 if(strlen($subject) < 10){
 	header("Location: addApp.php");
 }
@@ -50,7 +56,7 @@ $formString = " ";
 
 $count = 0;
 
-// READ EACH LINE OF APPLIANCE LIST
+// READ EACH LINE OF APPLIANCE LIST and populate table.
 foreach(preg_split("/((\r?\n)|(\r\n?))/", $subject) as $line){
 	if($line[0] != "#"){
 	$subLine = explode("|",$line); // EXPLODE LINE INTO PROPERTIES
@@ -58,9 +64,6 @@ foreach(preg_split("/((\r?\n)|(\r\n?))/", $subject) as $line){
 	$appState = trim($subLine[1]); // APP POWER STATE
 	$appOnCode = "'" . trim($subLine[2]) . "'"; // APP ON CODE
 	$appOffCode = "'" . trim($subLine[3]) . "'";// APP OFF CODE
-	$appLong = trim($subLine[4]); // APP LONG PULSE
-	$appShort = trim($subLine[5]); // APP SHORT PULSE
-	$appSpace = trim($subLine[6]); // APP SPACE PULSE
 	$appRepeat = trim($subLine[7]); // APP TX REPEAT
 	$appUID = trim($subLine[8]); // APP UNIQUE ID
 	$appUIDnoQUOTE = str_replace("'","",$appUID);
@@ -107,10 +110,11 @@ foreach(preg_split("/((\r?\n)|(\r\n?))/", $subject) as $line){
 	}
 }
 
+// GET LIST OF ALL CURRENT ACTIONS
 $subject = file_get_contents("conf/actions.txt");
 $subject = explode("\n",$subject);
 foreach($subject as &$action){
-	if(substr($action,0,1) != "#" && strlen($action) > 5){
+	if(substr($action,0,1) != "#" && strlen($action) > 5){ // IF NOT COMMENT AND VALID
 		$action = explode("|",$action);
 		foreach($action as &$pieces){
 			$aid = $pieces[0];
@@ -120,6 +124,7 @@ foreach($subject as &$action){
 	}
 }
 
+// POPULATE LIST OF WEMO SWITCHES
 if($wemoSupport == "ENABLED"){
 	$wemoString = "";
 	$subject = file_get_contents("conf/wemo.list");
@@ -132,7 +137,7 @@ if($wemoSupport == "ENABLED"){
 	else{
 	$subject = explode("\n",$subject);
 	foreach($subject as &$wemo){
-	        if(strlen($wemo) > 5){
+	        if(strlen($wemo) > 5){ // IF LINE IS VALID
 			$countA = "'A" . $count . "state'";
 			$countB = "'A" . $count . "'";
 			$countC = "'A" . $count . "F'";
@@ -158,55 +163,9 @@ if($wemoSupport == "ENABLED"){
 	                                <td id="powerBtn" onclick=""><div id="A' . $count . '" onclick="haptic();cycleState(' . $countB . ');" style="background-color:#777777;"><div class="powerIcon"><img id="A' . $count . 'pwr" src="images/power.png" width="64px" height="64px"></div></td>
 				</tr>
 				<tr id="verticalSpace"></tr>';
-	
-			$jsString = $jsString .
-					"window." .preg_replace('/\s+/', '_', $wemoName) . " = " . $wemoState . ";\n";
-	
-			$ajaxString = $ajaxString . "function ajaxFunctionApp" . $wemoID . "(){
-						var ajaxRequest; // The variable that makes Ajax possible!
-	
-						try{
-						// Opera 8.0+, Firefox, Safari
-							ajaxRequest = new XMLHttpRequest();
-						} catch (e){
-						// Internet Explorer Browsers
-						try{
-							ajaxRequest = new ActiveXObject('Msxml2.XMLHTTP');
-						} catch (e) {
-						try{
-							ajaxRequest = new ActiveXObject('Microsoft.XMLHTTP');
-						} catch (e){
-							// Something went wrong
-							alert('Your browser broke!');
-							return false;
-						}
-						}
-						}
-						// Create a function that will receive data sent from the server
-						ajaxRequest.onreadystatechange = function(){
-							if(ajaxRequest.readyState == 4){
-								state = window.".preg_replace('/\s+/', '_', $wemoName).";
-								if(parseInt(ajaxRequest.responseText) != parseInt(state)){
-									if(parseInt(ajaxRequest.responseText) == 1 || parseInt(ajaxRequest.responseText) == 0){
-										if(parseInt(state) == 0){
-											window.".preg_replace('/\s+/', '_', $wemoName)." == 1;
-										}
-										else if(parseInt(state) == 1){
-											window.".preg_replace('/\s+/', '_', $wemoName)." == 0;
-										}
-										if(window.wemoSkip == 0){
-											powerWemo(".preg_replace('/\s+/', '_', $wemoNameAlt).",".$wemoIDAlt.",1);
-										}
-										else{
-											window.wemoSkip = 0;
-										}
-									}
-								}
-							}
-						};
-						ajaxRequest.open('POST', 'stateListen.php?wemo=" . $wemoID . "', true);
-						ajaxRequest.send(null);
-						}\n\n";
+
+			$jsString = $jsString .	"window." .preg_replace('/\s+/', '_', $wemoName) . " = " . $wemoState . ";\n";
+
 			$formString = $formString . '<input type="hidden" id=' . $countC . ' name="' . $wemoID . '" value="' . $wemoID . '-X"></input>';
 		}
 		$count = $count + 1;
@@ -268,28 +227,6 @@ if($wemoSupport == "ENABLED"){
 			var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
 			<?php echo $jsString;?>
-
-			function loadingLogo(){
-				easterEggs = "0";
-				var image = document.querySelectorAll("img")[0];
-				var source = image.src = image.src.replace("images/tx_animation_slow.gif","images/loading.gif");
-				var source = image.src = image.src.replace("images/logostatic.png","images/loading.gif");
-				var source = image.src = image.src.replace("images/loading.gif","images/loading.gif");
-				window.setTimeout(function () {
-					var image = document.querySelectorAll("img")[0];
-	                                var source = image.src = image.src.replace("images/loading.gif","images/logostatic.png");
-				}, 600);
-				//clearInterval(intervalID);
-			}
-
-			//Function to convert hex format to a rgb color
-			function rgb2hex(rgb){
-				rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
-				return (rgb && rgb.length === 4) ? "#" +
-				("0" + parseInt(rgb[1],10).toString(16)).slice(-2) +
-				("0" + parseInt(rgb[2],10).toString(16)).slice(-2) +
-				("0" + parseInt(rgb[3],10).toString(16)).slice(-2) : '';
-			}
 
 			function cycleState(div){
 				app = document.getElementById(div);

@@ -3,7 +3,10 @@ import socket
 import os
 import commands
 
-os.chdir("/var/www")
+with open("/etc/ep.root") as f:
+        rootDir = f.read().strip("\n")
+
+os.chdir(rootDir)
 
 #//////////////////////////////////////////////
 # READ SINGLE SETTING FUNCTION...

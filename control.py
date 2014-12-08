@@ -9,18 +9,24 @@ import RPi.GPIO as GPIO
 import argparse
 import urllib2
 
-os.chdir("/var/www")
+with open("/etc/ep.root") as f:
+        rootDir = f.read().strip("\n")
+
+with open("/etc/ep-web.root") as f:
+        webDir = f.read().strip("\n")
+
+os.chdir(rootDir)
 global pidTime
 pidTime = 0
 
 # These are to keep the logs at a reasonable size. Under normal use, this is only run once per day at 4AM.
-with open("/var/www/logs/client_watch.log","w") as f:
+with open(rootDir+"/logs/client_watch.log","w") as f:
 	f.write("")
-with open("/var/www/logs/control_watch.log","w") as f:
+with open(rootDir+"/logs/control_watch.log","w") as f:
 	f.write("")
-with open("/var/www/logs/notifications.log","w") as f:
+with open(rootDir+"/logs/notifications.log","w") as f:
 	f.write("")
-with open("/var/www/logs/wemo_watch.log","w") as f:
+with open(rootDir+"/logs/wemo_watch.log","w") as f:
 	f.write("")
 with open("/var/log/apache2/error.log","w") as f:
 	f.write("")
@@ -30,7 +36,7 @@ with open("/var/log/apache2/access.log","w") as f:
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
-        self.log = open("/var/www/logs/control_watch.log", "a")
+        self.log = open(rootDir+"/logs/control_watch.log", "a")
 
     def write(self, message):
         self.terminal.write(message)
@@ -155,7 +161,7 @@ def restart_program(type):
 		pass
 
 
-	os.system("sudo python /var/www/control_watch.py " + type + "&")
+	os.system("sudo python "+rootDir+"/control_watch.py " + type + "&")
 	sys.exit()
 #//////////////////////////////////////////////
 
@@ -369,7 +375,7 @@ def scheduleCheck():
 				eventTime = hourS+":"+minS
 				if timeString == eventTime:
 					print "EVENT",nickS,"HAPPENING!"
-					urllib2.urlopen("http://192.168.1.88/system.php?type=ACTION&AID="+AID)
+					urllib2.urlopen("http://192.168.1.88/"+webDir+"system.php?type=ACTION&AID="+AID)
 
 timeoutCheck()
 global breatheDirection

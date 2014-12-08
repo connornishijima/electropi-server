@@ -6,7 +6,9 @@ pids = {}
 pidStuck = {}
 timeout = 10
 
-os.chdir("/var/www")
+with open("/etc/ep.root") as f:
+        rootDir = f.read().strip("\n")
+os.chdir(rootDir)
 os.system("sudo rm conf/pids/*.txt")
 with open("conf/pids/pids.list","w") as f:
 	f.write("")
