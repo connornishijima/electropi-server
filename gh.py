@@ -1,5 +1,21 @@
 import os
 
+os.chdir("/var/www")
+with open("testing/erase.list") as f:
+        eraseList = f.read()
+        eraseList = eraseList.split("\n")
+
+os.system("sudo rm /var/www/conf/actions/*.txt")
+os.system("sudo rm /var/www/conf/clients/*.txt")
+os.system("sudo rm /var/www/conf/pids/*.txt")
+os.system("sudo rm /var/www/conf/clients/*.might")
+
+for item in eraseList:
+        if len(item) > 3:
+                print "Erasing:",item
+                with open(item,"w") as f:
+                        f.write('')
+
 os.system("sudo git add -A")
 print "What has changed in this commit?"
 commit = raw_input()
