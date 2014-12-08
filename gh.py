@@ -1,6 +1,6 @@
 import os
 
-os.system("sudo git add .")
+os.system("sudo git add -A")
 print "What has changed in this commit?"
 commit = raw_input()
 os.system('sudo git commit -m "' + str(commit) + '"')
