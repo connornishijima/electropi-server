@@ -1,0 +1,4117 @@
+SETTING READ: NET_INTERFACE = wlan0
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0021s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.021s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 30
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.65 seconds
+NOT SEEN
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.090s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.21 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0021s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.27 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.039s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:58 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.057s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0015s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.035s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0019s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.057s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.92 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0019s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.060s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.039s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0019s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.13s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0023s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.70 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.29 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0011s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.29 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.61 seconds
+NOT SEEN
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0040s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.046s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0060s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 11:59 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.049s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0015s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.64 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.026s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.89 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0030s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 4.83 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.043s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0042s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.067s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0059s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.69 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.037s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.70 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0015s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.063s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 4.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0022s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.065s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.88 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:00 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.065s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.89 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+SETTING READ: NET_INTERFACE = wlan0
+IDENTIFYING 192.168.1.150...
+Interface: wlan0, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.8.1 with 1 hosts (http://www.nta-monitor.com/tools/arp-scan/)
+192.168.1.150	cc:3a:61:ce:54:2c	(Unknown)
+
+18 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.8.1: 1 hosts scanned in 4.162 seconds (0.24 hosts/sec). 1 responded
+Interface: wlan0, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.8.1 with 1 hosts (http://www.nta-monitor.com/tools/arp-scan/)
+192.168.1.150	cc:3a:61:ce:54:2c	(Unknown)
+
+18 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.8.1: 1 hosts scanned in 4.162 seconds (0.24 hosts/sec). 1 responded
+MAC of device is cc:3a:61:ce:54:2c
+IP 192.168.1.150 IS MAC ADDRESS: cc:3a:61:ce:54:2c
+
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 45
+SETTING READ: CPU_MON = DISABLED
+sleep
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 60
+SETTING READ: CPU_MON = DISABLED
+sleep
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 22
+SETTING READ: CPU_MON = DISABLED
+sleep
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 40
+SETTING READ: CPU_MON = DISABLED
+sleep
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 40
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 27
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.088s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.62 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.052s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.032s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.058s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.14 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.92 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:01 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.027s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.030s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.067s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.92 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.098s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.092s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.93 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.088s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.081s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.088s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.06 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.46 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.089s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:02 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.078s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.69 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.052s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.086s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.16 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 77
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.023s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.056s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.62 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.026s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.70 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 10
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.079s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.096s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.083s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.37 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.051s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:03 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 4.60 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.061s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.074s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 12
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.078s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.21 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.030s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.68 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.043s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.30 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.047s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.095s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.88 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.054s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.044s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.046s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.18 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.050s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.72 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.099s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 90
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:04 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.095s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.075s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.95 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.041s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.89 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.032s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.17 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.044s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.043s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.085s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.080s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.032s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.039s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.08 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.055s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.043s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:05 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.070s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.089s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.086s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.90 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.098s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.22 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.26 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.041s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.58 seconds
+NOT SEEN
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 70
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:06 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.089s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.08 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.022s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.083s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.065s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.041s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.037s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.022s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.10 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.094s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.068s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.036s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.046s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:07 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.095s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.25 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.069s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.043s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.62 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.067s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.032s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.21 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.092s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.063s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.66 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 76
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.056s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.64 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:08 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.090s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.66 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.037s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.55 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.099s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.88 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.092s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.89 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.076s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.060s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.01 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.031s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.91 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 30
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.024s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.59 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 45
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.63 seconds
+NOT SEEN
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.68 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 55
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:09 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.67 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 22
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.72 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.094s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.45 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.087s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 20
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.035s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 55
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.080s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 50
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.067s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.68 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 60
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.073s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 22
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 60
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.029s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.057s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.55 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.025s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.63 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 27
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.032s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 60
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:10 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.073s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.72 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.025s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.072s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.47 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.082s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.60 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.083s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.082s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.067s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.58 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 66
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.060s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 36
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.054s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.56 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.058s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 30
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.68 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 45
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.086s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 70
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:11 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.095s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 90
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.035s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.44 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.097s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 77
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.53 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.018s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.025s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.49 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.032s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.64 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 20
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.035s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 70
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.016s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.036s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.59 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.027s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.55 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:12 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.075s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.023s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.63 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 27
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.059s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 81
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.099s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.53 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 30
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.085s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.029s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.075s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 80
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 27
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.035s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.63 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 18
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.069s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.66 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 55
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.029s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.59 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 77
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.64 seconds
+NOT SEEN
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 90
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:13 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.018s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.68 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 10
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.029s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 27
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.53 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 70
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.05 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.055s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 90
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.042s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.47 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.054s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.57 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 92
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.051s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 54
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.036s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.57 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 88
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.052s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 27
+SETTING READ: CPU_MON = DISABLED
+sleep
+SETTING READ: NET_INTERFACE = wlan0
+IDENTIFYING 192.168.1.102...
+Interface: wlan0, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.8.1 with 1 hosts (http://www.nta-monitor.com/tools/arp-scan/)
+192.168.1.102	50:e5:49:ed:ef:e9	GIGA-BYTE TECHNOLOGY CO.,LTD.
+
+2 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.8.1: 1 hosts scanned in 2.054 seconds (0.49 hosts/sec). 1 responded
+Interface: wlan0, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.8.1 with 1 hosts (http://www.nta-monitor.com/tools/arp-scan/)
+192.168.1.102	50:e5:49:ed:ef:e9	GIGA-BYTE TECHNOLOGY CO.,LTD.
+
+2 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.8.1: 1 hosts scanned in 2.054 seconds (0.49 hosts/sec). 1 responded
+MAC of device is 50:e5:49:ed:ef:e9
+IP 192.168.1.102 IS MAC ADDRESS: 50:e5:49:ed:ef:e9
+ANDROID|cc:3a:61:ce:54:2c|192.168.1.150
+
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.058s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.58 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.59 seconds
+NOT SEEN
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 20
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.57 seconds
+NOT SEEN
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.43 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 11
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:14 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.69 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.54 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.077s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.45 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 70
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.017s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0024s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.52 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 40
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.70 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0031s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.39 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0015s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 54
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.087s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.082s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.040s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.94 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0021s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.033s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0022s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.078s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.88 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:15 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0011s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.14 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.086s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0018s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.039s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.10 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0017s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0017s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.028s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.058s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.015s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0019s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.080s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0042s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.90 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0028s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.94 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:16 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.65 seconds
+NOT SEEN
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.93 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.037s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0010s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.13 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.059s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.39 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0021s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.079s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.13 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.097s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0038s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.047s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0036s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 5.13 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 2.23 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.031s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.41 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:17 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0017s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.93 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.088s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.95 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.100s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.92 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0011s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.10s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.91 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0022s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.27 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.098s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.95 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.066s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.90 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0022s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.030s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0032s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.085s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.91 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0022s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.051s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:18 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.018s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 30
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.049s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.33 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.018s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.34 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.097s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.95 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0011s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.76 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.94 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.066s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.29 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.051s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.025s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.91 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.040s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:19 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.100s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0011s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.26 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0035s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.32 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.078s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.24 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0015s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.39 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.069s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.15 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0035s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.020s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 1.08 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.048s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.92 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0011s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.042s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:20 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.94 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.62 seconds
+NOT SEEN
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0017s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.88 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.027s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.86 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0017s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.88 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0053s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.096s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.26 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0015s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.11s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.91 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.019s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 4.80 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.69 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.078s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0031s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.83 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.70 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:21 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0040s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.050s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.82 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.64 seconds
+NOT SEEN
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0019s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.75 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.072s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.89 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.87 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.081s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.73 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.093s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.03 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.81 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.044s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 0.69 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0015s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.039s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 2.23 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0065s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.048s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 2.01 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0013s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.078s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.87 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:22 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0037s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.78 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.066s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.84 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.79 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 44
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 0.81 seconds
+NOT SEEN
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0016s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 77
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.054s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 2.09 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0030s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.85 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.12s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.80 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.018s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.77 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 100
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.080s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.20 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0014s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 36
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.045s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1 host up) scanned in 1.23 seconds
+CHECKING COMPUTER
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.102
+Host is up (0.0018s latency).
+MAC Address: 50:E5:49:ED:EF:E9 (Giga-byte Technology Co.)
+Nmap done: 1 IP address (1 host up) scanned in 0.84 seconds
+Updating network interface list...
+Checking CPU USAGE...
+CPU: 70
+SETTING READ: CPU_MON = DISABLED
+sleep
+CHECKING ANDROID
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2014-12-08 12:23 MST
+Nmap scan report for 192.168.1.150
+Host is up (0.057s latency).
+MAC Address: CC:3A:61:CE:54:2C (Unknown)
+Nmap done: 1 IP address (1

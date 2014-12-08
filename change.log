@@ -1,0 +1,83 @@
+CHANGE LOG:
+
+- 12/06/14 Fixed device authenication defaults, added "enter interface" to installer.
+- 12/03/14 WeMo switch list can now be repopulated from the control screen.
+- 12/03/14 RF codes are now queued in a command list again - this helps keep things up to date when any
+           small hangs happen. Also added "WEMO_SUPPORT" option to conf/settings.conf.
+- 12/03/14 Added timeout checking ("timeoutCheck()") to kill stuck scripts. (/var/www/timeout_watch.py)
+
+##########################################################################################
+!---- 12/02/14 ElectroPi 1.1! Whew! While we had a few bumps during launch with the device
+tracking features, it's been awesome! Now available as a working feature is WeMo support!
+Once any WeMo Switch is set up on your home WiFi, it will automatically populate on the
+ElectroPi control screen! EPi's control_watch.py will refresh the available switches now
+and then, and keep track of their states! If you turn one on with the WeMo app, it's on
+inside ElectroPi. Turn it off with ElectroPi, and it's off in WeMo.
+
+Not that you'd ever use their app again. ;)
+##########################################################################################
+
+- 11/27/14 Logs of each python script are now output to /var/www/logs.
+- 11/27/14 Added ability to turn off auto-updates, so that nobody's modifications can be erased overnight!
+- 11/27/14 Changed all naming instances of "logic" to "track" for now
+- 11/26/14 Increased dropoff threshold of connected devices. They take longer to leave the network
+           officially after this change, but no more random shutoffs!
+- 11/26/14 The installer now uses double quotes in /etc/network/interfaces, WiFi seems to be entirely fixed.
+- 11/26/14 Added "Network Interface" option to setting page, fixing wlan/eth conflicts! Thanks Jan!
+- 11/26/14 Added "power outage recovery" to control_watch.py/serverReboot.php - now your RF outlets will
+           keep their states after a blackout! 
+- 11/26/14 Altered the PAGTR-009 preset.
+- 11/26/14 I think I've fixed the addDevice system! It was an issue with the way I was issuing updates.
+- 11/25/14 Last minute tweaks for launch
+- 11/17/14 Finished incorporating addLogic.php
+- 11/07/14 Scheduling is operational in client_watch.py/event.list, though no interface yet.
+- 11/07/14 After a few weeks of hectic re-writes, MAC address presence tracking is finally fully finished!
+- 11/07/14 Device presense tracking is now MANY times faster, and lighter on CPU usage as well.
+- 11/07/14 Added device authentication to header.php! Uses addDevice.php.
+- 11/03/14 Added the ability to re-order appliances on the control screen!
+- 11/03/14 Added "Action" system to allow for preset switch actions!
+- 10/27/14 Until further notice, ep.appcache and all AppCache features have been removed for stability.
+- 10/26/14 CSS tweaks, added PSutil and CPUlimit dependencies to installer.
+- 10/26/14 Added live CPU meter to footer.php, and now MAC tracking is limited it's CPU usage.
+- 10/23/14 Begun additon of Mac Address tracking, with DHCP drift compensation
+- 10/23/14 LED "breathes" on standby, if even enabled. ("Status LED" option now in setup.php)
+- 10/23/14 Status LED control is now reinserted in the Watchdog.
+- 10/22/14 "Ghost Notifications" eradicated.
+- 10/22/14 CSS tweaks - footer is finally bottom-sticky!
+- 10/22/14 Incorporated Jan Odvárko's jsColor! No more manually typing HEX codes. 
+- 10/22/14 ...Something...FEELS different on Android. ;) Hmm.
+- 10/22/14 Added "Server status" to header/footer.php. Can't use interface while server is offline!
+- 10/22/14 ElectroPi is now a mobile WebApp! Add it to your homescreen for a cool icon!
+- 10/22/14 Fixed notification system to add proper timeouts, no more flickering notifications!
+- 10/21/14 Added secret color tweak feature to header.php! ;)
+- 10/21/14 index.php is 20% larger scale on mobile devices. New default uiScale is 0.8
+- 10/21/14 Added to misc/cron.py - ElectroPi now checks for updates automaticallyat 3AM, then reboots at 4AM.
+- 10/21/14 Added manual test control to addAppSlides.php
+
+######################################################################################
+!---- 10/20/14 ElectroPi 1.0! Since 2012 I've been working hard to bring low-cost home
+automation to geeks, and we're finally getting there! Special thanks to Lawrence, Gabe
+Mark/Olga, and Jay for being my beta testers! You're in the credits.php. ;)
+######################################################################################
+
+- 10/21/14 Stable 1.0 release candidate.
+- 10/20/14 Added detail to update bar for spectating clients
+- 10/20/14 Moved update checker to security menu
+- 10/20/14 Added "shade" div for dimming during updates
+- 10/20/14 CSS styling tweaks
+- 10/20/14 Changed the change log
+- 10/20/14 Added update scripting system to rf_watch.py
+- 10/20/14 Moved rercurring footer data to footer.php
+- 10/20/14 Added misc/cron.py to add cronjobs.
+- 10/20/14 Fixed my fixes. -_-
+- 10/20/14 Played Animal Crossing to take my mind off this damn thing.
+- 10/20/14 Added server-wide notice when updating
+- 10/20/14 Fixed ability to submit codes to preset database && added default password warning
+- 10/17/14 Added dynamically resizing iframes to Add Switch and preset selection screeens
+- 10/17/14 Fixed a bug where eraseApp.php was not properly subracting from the live appliance count
+- 10/17/14 Changed terminology from "appliance" to "switch"
+- 10/17/14 Added photos and corrections for Woods 13569 units
+- 10/17/14 Linked the control to the live counter on the ElectroPi website
+- 10/16/14 Added "Credits" page
+- 10/16/14 Truncated all deprecated files
+- 10/16/14 Fixed a meta bug. ;)
