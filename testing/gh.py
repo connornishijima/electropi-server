@@ -1,5 +1,6 @@
 import os
 
+print "Erasing user-specific files..."
 os.chdir("/var/www")
 with open("testing/erase.list") as f:
         eraseList = f.read()
@@ -16,6 +17,10 @@ for item in eraseList:
                 with open(item,"w") as f:
                         f.write('')
 
+print "Restoring default configuration..."
+os.system("sudo mv conf/default.conf conf/settings.conf")
+
+print "Uploading..."
 os.system("sudo git add -A")
 print "What has changed in this commit?"
 commit = raw_input()
