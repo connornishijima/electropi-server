@@ -13,3 +13,7 @@ Features
 * MAC Address presence tracking - lights when you're home, darkness when you're not.
 * Simple responsive WebApp allows easy control on any screen size.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/connornishijima/electropi-server/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
