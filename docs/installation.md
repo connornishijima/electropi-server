@@ -2,7 +2,7 @@
 
 Thank you for making ElectroPi your choice for Home Automation! Let's begin.
 
-###WGET the installer###
+##WGET the installer##
 
 This is the powerhouse that will be in charge of control codes, appliances, device tracking and more. ElectroPi can be installed with two commands:
 
@@ -13,7 +13,7 @@ $ sudo python ep_install.py
 
 Immediately you will be greeted with an ElectroPi intro screen, and you can begin the installation.
 
-###PERSONALIZATION###
+##PERSONALIZATION##
 
 During this installation your Pi will prompt you for a few questions to help tailor your experience. They are as follows:
 
