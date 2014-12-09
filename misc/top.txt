@@ -1,18 +1,27 @@
-top - 14:41:48 up 0 min,  0 users,  load average: 1.91, 0.49, 0.16
-Tasks:  82 total,   1 running,  81 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 34.0 us, 60.0 sy,  0.2 ni,  0.6 id,  3.7 wa,  0.9 hi,  0.7 si,  0.0 st
-KiB Mem:    496632 total,    81124 used,   415508 free,     9784 buffers
-KiB Swap:   102396 total,        0 used,   102396 free,    34680 cached
+top - 12:58:53 up 0 min,  0 users,  load average: 2.37, 0.59, 0.20
+Tasks:  91 total,   7 running,  84 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.0 us, 52.4 sy,  0.1 ni,  0.2 id,  2.8 wa,  1.1 hi,  2.4 si,  0.0 st
+KiB Mem:    496632 total,    90100 used,   406532 free,     9624 buffers
+KiB Swap:   102396 total,        0 used,   102396 free,    35248 cached
 
   PID USER      PR  NI  VIRT  RES  SHR S  %CPU %MEM    TIME+  COMMAND
- 2279 root      39  19  3008 1096  828 R  15.6  0.2   0:00.08 top
-    1 root      20   0  2148  720  616 S   0.0  0.1   0:01.76 init
+ 2162 www-data  20   0 24628 5748 2116 R  12.3  1.2   0:00.44 apache2
+ 2207 www-data  20   0 24628 5748 2116 R  12.3  1.2   0:00.36 apache2
+ 2214 www-data  20   0 24628 5748 2116 R  12.3  1.2   0:00.32 apache2
+ 2290 root      39  19  3008 1100  828 R  12.3  0.2   0:00.09 top
+ 2206 www-data  20   0 24632 5752 2120 R   4.1  1.2   0:00.35 apache2
+ 2211 www-data  20   0 24628 5748 2116 R   4.1  1.2   0:00.28 apache2
+ 2253 root      20   0  1696  560  472 S   4.1  0.1   0:00.09 startpar
+ 2270 root       9 -11  1872  456  356 S   4.1  0.1   0:00.05 cpulimit
+ 2271 root      20   0  3088 1416 1156 S   4.1  0.3   0:00.06 sudo
+ 2279 root      20   0 34928 6384 2892 S   4.1  1.3   0:00.84 python
+    1 root      20   0  2148  720  616 S   0.0  0.1   0:01.80 init
     2 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kthreadd
-    3 root      20   0     0    0    0 S   0.0  0.0   0:00.12 ksoftirqd/0
+    3 root      20   0     0    0    0 S   0.0  0.0   0:00.31 ksoftirqd/0
     4 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/0:0
     5 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kworker/0:0H
-    6 root      20   0     0    0    0 S   0.0  0.0   0:00.14 kworker/u2:0
-    7 root      20   0     0    0    0 S   0.0  0.0   0:00.24 rcu_preempt
+    6 root      20   0     0    0    0 S   0.0  0.0   0:00.35 kworker/u2:0
+    7 root      20   0     0    0    0 S   0.0  0.0   0:00.34 rcu_preempt
     8 root      20   0     0    0    0 S   0.0  0.0   0:00.00 rcu_bh
     9 root      20   0     0    0    0 S   0.0  0.0   0:00.00 rcu_sched
    10 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 khelper
@@ -22,8 +31,8 @@ KiB Swap:   102396 total,        0 used,   102396 free,    34680 cached
    14 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 bioset
    15 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 crypto
    16 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kblockd
-   17 root      20   0     0    0    0 S   0.0  0.0   0:00.26 khubd
-   18 root      20   0     0    0    0 S   0.0  0.0   0:00.06 kworker/0:1
+   17 root      20   0     0    0    0 S   0.0  0.0   0:00.27 khubd
+   18 root      20   0     0    0    0 S   0.0  0.0   0:00.07 kworker/0:1
    19 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 rpciod
    20 root      20   0     0    0    0 S   0.0  0.0   0:00.00 khungtaskd
    21 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kswapd0
@@ -38,52 +47,52 @@ KiB Swap:   102396 total,        0 used,   102396 free,    34680 cached
    35 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 DWC Notificatio
    36 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/u2:1
    37 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 deferwq
-   38 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/u2:2
-   39 root      20   0     0    0    0 S   0.0  0.0   0:00.50 mmcqd/0
+   38 root      20   0     0    0    0 S   0.0  0.0   0:00.14 kworker/u2:2
+   39 root      20   0     0    0    0 S   0.0  0.0   0:00.54 mmcqd/0
    40 root      20   0     0    0    0 S   0.0  0.0   0:00.00 jbd2/mmcblk0p2-
    41 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 ext4-rsv-conver
   156 root      20   0  2888 1280  748 S   0.0  0.3   0:00.51 udevd
-  258 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 cfg80211
-  301 root      20   0  2884 1028  480 S   0.0  0.2   0:00.02 udevd
-  304 root      20   0  2884  996  456 S   0.0  0.2   0:00.00 udevd
- 1617 root      20   0  1752  512  420 S   0.0  0.1   0:00.39 ifplugd
- 1656 root      20   0  1752  504  420 S   0.0  0.1   0:00.00 ifplugd
- 1687 root      20   0  1752  496  412 S   0.0  0.1   0:00.01 ifplugd
- 1784 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/0:2
- 1795 root      20   0  5644 1364  992 S   0.0  0.3   0:00.25 wpa_supplicant
+  254 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 cfg80211
+  280 root      20   0  2884 1028  480 S   0.0  0.2   0:00.02 udevd
+  296 root      20   0  2884  996  456 S   0.0  0.2   0:00.00 udevd
+ 1614 root      20   0  1752  512  420 S   0.0  0.1   0:00.39 ifplugd
+ 1649 root      20   0  1752  504  420 S   0.0  0.1   0:00.01 ifplugd
+ 1693 root      20   0  1752  496  412 S   0.0  0.1   0:00.02 ifplugd
+ 1778 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/0:2
+ 1789 root      20   0  5644 1364  992 S   0.0  0.3   0:00.24 wpa_supplicant
  2002 nobody    20   0  2020  632  512 S   0.0  0.1   0:00.00 thd
- 2004 root      20   0 27976 1512 1104 S   0.0  0.3   0:00.10 rsyslogd
- 2045 root      20   0 24456 6756 3360 S   0.0  1.4   0:00.14 apache2
- 2078 www-data  20   0 24480 4020  612 S   0.0  0.8   0:00.00 apache2
- 2079 www-data  20   0 24480 4020  612 S   0.0  0.8   0:00.00 apache2
- 2080 www-data  20   0 24480 4032  624 S   0.0  0.8   0:00.00 apache2
- 2081 www-data  20   0 24480 4020  612 S   0.0  0.8   0:00.00 apache2
- 2082 www-data  20   0 24480 4020  612 S   0.0  0.8   0:00.00 apache2
+ 2004 root      20   0 27976 1556 1104 S   0.0  0.3   0:00.09 rsyslogd
+ 2045 root      20   0 24456 6756 3360 S   0.0  1.4   0:00.17 apache2
+ 2073 www-data  20   0 24692 5796 2116 S   0.0  1.2   0:00.63 apache2
+ 2075 www-data  20   0 24628 5748 2116 S   0.0  1.2   0:00.50 apache2
+ 2080 www-data  20   0 24628 5748 2116 S   0.0  1.2   0:00.61 apache2
+ 2081 www-data  20   0 24628 5748 2116 S   0.0  1.2   0:00.51 apache2
+ 2086 www-data  20   0 24628 5748 2116 S   0.0  1.2   0:00.50 apache2
  2110 root      20   0  3828  948  760 S   0.0  0.2   0:00.01 cron
- 2114 messageb  20   0  3180  628  400 S   0.0  0.1   0:00.00 dbus-daemon
- 2181 ntp       20   0  5516 1508 1132 S   0.0  0.3   0:00.04 ntpd
- 2205 root      20   0  6216 1044  620 S   0.0  0.2   0:00.00 sshd
- 2235 root      20   0  4224 1068  816 S   0.0  0.2   0:00.02 vsftpd
- 2244 root      20   0  3604 1424 1160 S   0.0  0.3   0:00.04 sudo
- 2248 root      20   0  1696  560  472 S   0.0  0.1   0:00.06 startpar
- 2249 root      20   0  3748  812  684 S   0.0  0.2   0:00.02 getty
- 2250 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
- 2251 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
- 2252 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
- 2253 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
- 2254 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
- 2255 root      20   0  2068  732  608 S   0.0  0.1   0:00.01 getty
- 2257 root      20   0  6660 3668 2020 S   0.0  0.7   0:00.26 python
- 2260 root      20   0  3088 1416 1156 S   0.0  0.3   0:00.04 sudo
- 2261 root       9 -11  1872  456  356 S   0.0  0.1   0:00.02 cpulimit
- 2262 root      20   0  3088 1416 1156 S   0.0  0.3   0:00.04 sudo
- 2263 root       9 -11  1872  456  356 S   0.0  0.1   0:00.02 cpulimit
- 2264 root      39  19 10520 6440 2860 S   0.0  1.3   0:01.06 python
- 2265 root       9 -11  1872  456  356 S   0.0  0.1   0:00.02 cpulimit
- 2266 root      20   0  6660 3476 1932 S   0.0  0.7   0:00.22 python
- 2267 root      20   0  6660 3568 2004 S   0.0  0.7   0:00.23 python
- 2268 root      20   0  1760  512  444 S   0.0  0.1   0:00.00 sh
- 2269 root      20   0  3088 1416 1156 S   0.0  0.3   0:00.03 sudo
- 2272 root      20   0 34932 6380 2892 S   0.0  1.3   0:00.80 python
- 2277 root      39  19  1760  512  444 S   0.0  0.1   0:00.00 sh
- 2278 root      39  19  3088 1412 1156 S   0.0  0.3   0:00.03 sudo
+ 2115 messageb  20   0  3180  628  400 S   0.0  0.1   0:00.00 dbus-daemon
+ 2128 www-data  20   0 24628 5748 2116 S   0.0  1.2   0:00.61 apache2
+ 2165 www-data  20   0 24632 5752 2120 R   0.0  1.2   0:00.41 apache2
+ 2175 ntp       20   0  5516 1512 1136 S   0.0  0.3   0:00.05 ntpd
+ 2215 root      20   0  6216 1064  640 S   0.0  0.2   0:00.00 sshd
+ 2241 root      20   0  4224 1068  816 S   0.0  0.2   0:00.02 vsftpd
+ 2249 root      20   0  3604 1424 1160 S   0.0  0.3   0:00.04 sudo
+ 2256 root      20   0  3748  812  684 S   0.0  0.2   0:00.02 getty
+ 2257 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
+ 2258 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
+ 2259 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
+ 2260 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
+ 2261 root      20   0  3748  812  684 S   0.0  0.2   0:00.01 getty
+ 2262 root      20   0  2068  732  608 S   0.0  0.1   0:00.01 getty
+ 2265 root      20   0  6660 3676 2032 S   0.0  0.7   0:00.28 python
+ 2267 root      39  19 10520 6440 2864 S   0.0  1.3   0:01.13 python
+ 2268 root       9 -11  1872  456  356 S   0.0  0.1   0:00.05 cpulimit
+ 2269 root      20   0  3088 1416 1156 S   0.0  0.3   0:00.06 sudo
+ 2272 root       9 -11  1872  456  356 S   0.0  0.1   0:00.05 cpulimit
+ 2273 root      20   0  6660 3576 2008 S   0.0  0.7   0:00.24 python
+ 2274 root      20   0  6660 3484 1936 S   0.0  0.7   0:00.23 python
+ 2276 root      20   0  1760  512  444 S   0.0  0.1   0:00.00 sh
+ 2277 root      20   0  3088 1416 1156 S   0.0  0.3   0:00.04 sudo
+ 2281 root      20   0  7560 2428 1968 S   0.0  0.5   0:00.19 sshd
+ 2284 sshd      20   0  7560 1188  716 S   0.0  0.2   0:00.59 sshd
+ 2288 root      39  19  1760  512  444 S   0.0  0.1   0:00.00 sh
+ 2289 root      39  19  3088 1412 1156 S   0.0  0.3   0:00.04 sudo
