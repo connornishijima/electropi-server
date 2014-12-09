@@ -19,11 +19,15 @@ During this installation your Pi will prompt you for a few questions to help tai
 
 ######Do you want to wipe the '/var/www' Apache2 directory?######
 If you already have a web server installed, answer "N". Otherwise, the installer will wipe the '/var/www' directory clean.
+
 ######Configure Timezone######
 This will have you select your timezone for control scheduling purposes.
+
 ######Will this Pi be WiFi-based?######
 If so, the installer will ask your for your WiFi credentials so the Pi can join the your wireless network.
+
 ######Enter the IP address to assign to ElectroPi######
 This is the address at which you can access the ElectroPi control screen to switch your appliances. This is a "static" IP address - meaning that once set no other networked device can take it's address. Ex: `192.168.1.88`
+
 ######Enter your Netmask######
 Check with your network administrator for this value. Most home networks are Class-C netmasks, so `255.255.255.0` will almost always work.
