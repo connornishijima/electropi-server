@@ -6,7 +6,7 @@ Thank you for making ElectroPi your choice for Home Automation! Let's begin.
 
 This is the powerhouse that will be in charge of control codes, appliances, device tracking and more. ElectroPi can be installed with two commands:
 
-```
+```bash
 $ sudo wget http://connor-n.com/electropi/ep_install.py
 $ sudo python ep_install.py
 ```
@@ -25,3 +25,5 @@ This will have you select your timezone for control scheduling purposes.
 If so, the installer will ask your for your WiFi credentials so the Pi can join the your wireless network.
 ######Enter the IP address to assign to ElectroPi######
 This is the address at which you can access the ElectroPi control screen to switch your appliances. This is a "static" IP address - meaning that once set no other networked device can take it's address. Ex: `192.168.1.88`
+######Enter your Netmask######
+Check with your network administrator for this value. Most home networks are Class-C netmasks, so `255.255.255.0` will almost always work.
