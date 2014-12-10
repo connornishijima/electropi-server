@@ -1,15 +1,36 @@
+#------------------------------------------------------------------
+#
+# ElectroPi EXPLORER
+#
+# - A way for folks to turn WAV's into control codes.
+#
+# To use this script, record a ~0.5 second sample of your remote's
+# control code at 22050 Hz in your DAW of choice. Then, export the
+# recording as a mono, 16-bit WAV file with a 22050 Hz sample rate.
+# Then, include the exported file as an argument to this script:
+#
+# sudo python decode.py recording.wav
+#
+#------------------------------------------------------------------
+
+# Import modules
 from __future__ import division
 import sys
 import wave, struct
 import os
+import time
 
-rows, columns = os.popen('stty size', 'r').read().split()
+rows, columns = os.popen('stty size', 'r').read().split() # Get console width for pretty output!
+os.system("clear") # Clear the terminal
+
+# Check if an input file was specified, die if it was not.
 try:
 	inFile = sys.argv[1]
 except:
 	print "You must specify an input file as an argument. (e.g. 'sudo python decode.py infile.wav')"
 	sys.exit(0)
 
+# Function for progress bar printing
 def drawProgressBar(percent, barLen = 20, num=" ", sep=" ",den=" ",units=" "):
     sys.stdout.write("\r")
     progress = ""
@@ -21,13 +42,11 @@ def drawProgressBar(percent, barLen = 20, num=" ", sep=" ",den=" ",units=" "):
     sys.stdout.write("[%s] %.2f%% %s%s%s %s" % (progress, percent * 100,num,sep,den,units))
     sys.stdout.flush()
 
-def prettyPrint(s,n):
-	import re
-	print re.sub("(.{"+str(n)+"})", "\\1\n", s, 0, re.DOTALL)
-
+# Function to get the median of a number set
 def median(numbers):
     return (sorted(numbers)[int(round((len(numbers) - 1) / 2.0))] + sorted(numbers)[int(round((len(numbers) - 1) // 2.0))]) / 2.0
 
+# Find the lowest and highest number of a set
 def lowHigh(numbers):
 	lowest = 100000
 	highest = 0
@@ -42,9 +61,12 @@ def lowHigh(numbers):
 
 	return [lowest,highest]
 
+# Passes data to drawProgressBar()
 def printPercent(soFar,total):
 	percent = soFar/total
 	drawProgressBar(percent,50,soFar,"/",total,"samples")
+
+start_time = time.time() # GO!
 
 print "\n--------------------"
 print "ElectroPi RF Decoder"
@@ -52,23 +74,31 @@ print "by Connor Nishijima"
 print "--------------------\n"
 
 print "Reading WAV file..."
-waveFile = wave.open(inFile, 'r')
+waveFile = wave.open(inFile, 'r') # Open WAV file
 inArray = []
 
+# Print cool stats
 print inFile,"opened."
 print "Sample rate:",waveFile.getframerate()
 print "Number of channels:",waveFile.getnchannels()
 print "Total samples:",waveFile.getnframes()
 
+# Check if the WAV has the proper format
 if waveFile.getframerate() != 22050 or waveFile.getnchannels() != 1 or waveFile.getnframes() > 110250:
 	print "You must supply a mono .WAV file with a sample rate of 22050 Hz, no more than 5 seconds in length."
 	sys.exit(0)
+
+# Warn stupid people if they can't follow directions
+if waveFile.getnframes() > 12000:
+	print "\n*****\nWARNING: Supplying a clip longer than 0.5 seconds is usually redundant, and takes much longer to process.\nYour file is",(waveFile.getnframes()/22050),"seconds long.\n*****\n"
 
 length = waveFile.getnframes()
 print "File is",length,"samples /",(length/22050),"seconds long.\n"
 
 print "Building binary array..."
 
+# Read through every sample of the file. If the sample is above zero, that's HIGH. If it's negative, that's LOW.
+# These binary values populate in inArray[].
 for i in range(0,length):
         waveData = waveFile.readframes(1)
         data = struct.unpack("<h", waveData)
@@ -80,6 +110,7 @@ for i in range(0,length):
                 inArray.append("0")
 		if str(i)[-2:] == "00":
 			printPercent(i,length)
+
 printPercent(length,length)
 
 countArray = []
@@ -90,6 +121,8 @@ lastBit = "X"
 
 print "\nGetting pulse lengths..."
 
+# Read through inArray and get the length in samples of each HIGH and LOW.
+# These counts populate in countArray[].
 while i < len(inArray):
 	bit = inArray[i]
 	if bit != lastBit:
@@ -106,9 +139,9 @@ printPercent(len(inArray),len(inArray))
 print "\n\nPulse lengths:"
 print countArray
 
-lh = lowHigh(countArray)
-med = median(lh)
-space = lh[1]
+lh = lowHigh(countArray) # Get the lowest and highest value in countArray[]
+med = median(lh) # Median between the two
+space = lh[1] # Code spacing in samples
 
 outArray = []
 
@@ -117,6 +150,7 @@ keep = 0
 done = 0
 
 i = 0
+# Trim the code data to one single code using spaces to help truncate
 while i < len(countArray):
 	length = countArray[i]
 	if length > med:
@@ -139,6 +173,7 @@ bit = 0
 outString = ""
 first = 1
 
+# Convert to final output string of binary
 for item in outArray:
 	if bit == 0:
 		if first == 1:
@@ -155,12 +190,14 @@ for item in outArray:
 		bit = 0
 		outString = outString + ("0" * item)
 
-print "\nCODE FOUND: " + ("="*(int(columns)-12))
+print "\n\nCODE FOUND: " + ("="*(int(columns)-12))
 print ("="*int(columns)) + "\n"
 print outString
 print "\n"+("="*int(columns))
 print ("="*int(columns)) + "\n"
 
-print "\nTX CODE BEGIN..."
-os.system("sudo /var/www/tx "+outString+" 30")
-print "TX END"
+# Done!
+elapsed_time = time.time() - start_time
+elapsed_time = ("%.2f" % round(elapsed_time,2))
+
+print "\nDecoder finished in",str(elapsed_time),"seconds! Your code is above. Each bit repesents a state of LOW or HIGH (0 or 1) for a period of ~45uS - or 1 sample at 22050 Hz.\n"
