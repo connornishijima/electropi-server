@@ -84,22 +84,41 @@ print "Number of channels:",waveFile.getnchannels()
 print "Total samples:",waveFile.getnframes()
 
 # Check if the WAV has the proper format
-if waveFile.getframerate() != 22050 or waveFile.getnchannels() != 1 or waveFile.getnframes() > 110250:
-	print "You must supply a mono .WAV file with a sample rate of 22050 Hz, no more than 5 seconds in length."
+if waveFile.getnchannels() != 1 or waveFile.getnframes() > 200000:
+	print "XYou must supply a mono .WAV file with a sample rate of 22050 Hz/44100Hz, no more than 5 seconds in length."
 	sys.exit(0)
 
-# Warn stupid people if they can't follow directions
-if waveFile.getnframes() > 12000:
-	print "\n*****\nWARNING: Supplying a clip longer than 0.5 seconds is usually redundant, and takes much longer to process.\nYour file is",(waveFile.getnframes()/22050),"seconds long.\n*****\n"
+sampleRateOK = False
+if waveFile.getframerate() == 22050:
+	sampleRateOK = True
+if waveFile.getframerate() == 44100:
+	sampleRateOK = True
+
+if sampleRateOK == False:
+	print "You must supply a mono .WAV file with a sample rate of 22050 Hz/44100Hz, no more than 5 seconds in length."
+        sys.exit(0)
 
 length = waveFile.getnframes()
-print "File is",length,"samples /",(length/22050),"seconds long.\n"
+print "File is",length,"samples /",(length/waveFile.getframerate()),"seconds long.\n"
+
+is44KHz = False
+
+if waveFile.getframerate() == 44100:
+	is44KHz = True
+
+# Warn stupid people if they can't follow directions
+if waveFile.getnframes() > 12000 and is44KHz == False:
+	print "\n*****\nWARNING: Supplying a clip longer than 0.5 seconds is usually redundant, and takes much longer to process.\nYour file is",(waveFile.getnframes()/waveFile.getframerate()),"seconds long.\n*****\n"
+if waveFile.getnframes() > 23000 and is44KHz == True:
+	print "\n*****\nWARNING: Supplying a clip longer than 0.5 seconds is usually redundant, and takes much longer to process.\nYour file is",(waveFile.getnframes()/waveFile.getframerate()),"seconds long.\n*****\n"
 
 print "Building binary array..."
 
 # Read through every sample of the file. If the sample is above zero, that's HIGH. If it's negative, that's LOW.
 # These binary values populate in inArray[].
-for i in range(0,length):
+
+i = 0
+while i < length:
         waveData = waveFile.readframes(1)
         data = struct.unpack("<h", waveData)
         if int(data[0]) > 0:
@@ -110,6 +129,11 @@ for i in range(0,length):
                 inArray.append("0")
 		if str(i)[-2:] == "00":
 			printPercent(i,length)
+
+	if is44KHz == False:
+		i += 1
+	else:
+		i += 2
 
 printPercent(length,length)
 
@@ -133,7 +157,11 @@ while i < len(inArray):
 		count += 1
 	if str(i)[-2:] == "00":
 		printPercent(i,len(inArray))
-	i += 1
+
+	if is44KHz == False:
+		i += 1
+	else:
+		i += 2
 
 printPercent(len(inArray),len(inArray))
 print "\n\nPulse lengths:"
