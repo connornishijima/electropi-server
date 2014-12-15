@@ -11,6 +11,9 @@ with open("/etc/ep.root") as f:
 os.nice(20)
 os.chdir(rootDir)
 
+with open("conf/clients/command.list","w") as f:
+	f.write("")
+
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
