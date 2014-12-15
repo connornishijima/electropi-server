@@ -1,6 +1,8 @@
 <?php
 
 include("settings.php");
+$title = "NOTITLE";
+
 $uiScale = floatval(readSetting("UI_SCALE"));
 $uiScale = $uiScale + 0.2;
 $animations = readSetting("ANIMATIONS");
@@ -453,14 +455,6 @@ setInterval(ajaxFunctionRepop, 250);
 
 	<body id="body" onLoad="commencerMain();">
 
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;">
-			<tr id="headerRow">
-				<td id="headerCell"><a href="index.php"><img id="logo" src="images/tx_animation_slow.gif?<?php echo date('Ymdgis');?>"></a><font id="logoText" style="color:<?php echo $offColor; ?>;padding-top: 10px;vertical-align: top;">ELECTRO</font>PI</td>
-				<td id="horizontalSpace"></td>
-				<td id="settingsBtn"><a href="setup.php"><span style="width: 64px;height: 64px;position: absolute;margin-top: -32px;"></span></a></td>
-			</tr>
-			<tr id="verticalSpace"></tr>
-		</table>
 		<div id="contain">
 		<ul id="slippylist" style="list-style-type: none;padding: 0px;">
 			<?php echo $tableString;?>

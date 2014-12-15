@@ -1,5 +1,7 @@
 <?php
 
+$title = "NOTITLE";
+
 // include settings.php to access conf/settings.conf
 include("settings.php");
 $wemoSupport = readSetting("WEMO_SUPPORT");
@@ -271,14 +273,6 @@ if($wemoSupport == "ENABLED"){
 
 	<body id="body" onLoad="commencerMain();">
 
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;">
-			<tr id="headerRow">
-				<td id="headerCell"><a href="index.php"><img id="logo" src="images/tx_animation_slow.gif?<?php echo date('Ymdgis');?>"></a><font id="logoText" style="color:<?php echo $offColor; ?>;padding-top: 10px;vertical-align: top;">ELECTRO</font>PI</td>
-				<td id="horizontalSpace"></td>
-				<td id="settingsBtn"><a href="setup.php"><span style="width: 64px;height: 64px;position: absolute;margin-top: -32px;"></span></a></td>
-			</tr>
-			<tr id="verticalSpace"></tr>
-		</table>
 		<div id="contain">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;">
 			<tr><td style="font-size: 36px;padding-bottom: 19px;text-align: center;">ADD ACTION</td></tr>

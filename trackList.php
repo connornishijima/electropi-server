@@ -1,53 +1,54 @@
 <?php
-include("password_protect.php");
-$onColor = readSetting("ONCOLOR");
-$offColor = readSetting("OFFCOLOR");
-$uiScale = readSetting("UI_SCALE");
-$pass = readSetting("PASSMD5");
+	include("password_protect.php");
+	$title = "TRACK LIST";
 
-if(isset($_GET["trackRemove"])){
-	$mac = $_GET["mac"];
-	$jAction = $_GET["jAction"];
-	$lAction = $_GET["lAction"];
-	$mac = str_replace("-",":",$mac);
+	$onColor = readSetting("ONCOLOR");
+	$offColor = readSetting("OFFCOLOR");
+	$uiScale = readSetting("UI_SCALE");
+	$pass = readSetting("PASSMD5");
 
-	$outList = '';
+	if(isset($_GET["trackRemove"])){
+		$mac = $_GET["mac"];
+		$jAction = $_GET["jAction"];
+		$lAction = $_GET["lAction"];
+		$mac = str_replace("-",":",$mac);
+
+		$outList = '';
+		$trackList = file_get_contents("conf/track.list");
+		$trackList = explode("\n",$trackList);
+		foreach($trackList as $trackLine){
+		        if(strlen($trackLine) > 3){
+				$trackLineB = $trackLine;
+				$trackLine = explode("|",$trackLine);
+				$macS = $trackLine[0];
+				$jActionS = $trackLine[1];
+				$lActionS = $trackLine[2];
+				if($mac == $macS && $jAction == $jActionS && $lAction == $lActionS){
+				}
+				else{
+					$outList = $outList . $trackLineB . "\n";
+				}
+
+		        }
+		}
+		file_put_contents("conf/track.list",$outList);
+	}
+
 	$trackList = file_get_contents("conf/track.list");
 	$trackList = explode("\n",$trackList);
-	foreach($trackList as $trackLine){
-	        if(strlen($trackLine) > 3){
-			$trackLineB = $trackLine;
-			$trackLine = explode("|",$trackLine);
-			$macS = $trackLine[0];
-			$jActionS = $trackLine[1];
-			$lActionS = $trackLine[2];
-			if($mac == $macS && $jAction == $jActionS && $lAction == $lActionS){
-			}
-			else{
-				$outList = $outList . $trackLineB . "\n";
-			}
-
-	        }
+	foreach($trackList as $track){
+		if(strlen($track) > 3){
+			$pieces = explode("|",$track);
+			$mac = $pieces[0];
+			$mac = str_replace(":","-",$mac);
+			$jAction = $pieces[1];
+			$lAction = $pieces[2];
+			$desc = $pieces[3];
+			$desc = str_replace("+","<br>",$desc);
+			$link = "'trackList.php?trackRemove=true&mac=" . $mac . "&jAction=". $jAction . "&lAction=" . $lAction . "'";
+			$trackTable = $trackTable . '<tr id="trackName" style="cursor:pointer;"><td style="padding-left: 20px;font-size:18px;">' . strtoupper($desc) . '</td><td onclick="window.location = '.$link.';" style="display: inline-block;float: right;margin-right: 20px;width: 25px;height: 25px;background-image: url(images/delete.png);background-size: cover;background-repeat: no-repeat;background-position: center center;margin-top: 20px;opacity: 0.2;"></td></tr><tr id="verticalSpace"></tr>';
+		}
 	}
-	file_put_contents("conf/track.list",$outList);
-}
-
-$trackList = file_get_contents("conf/track.list");
-$trackList = explode("\n",$trackList);
-foreach($trackList as $track){
-	if(strlen($track) > 3){
-		$pieces = explode("|",$track);
-		$mac = $pieces[0];
-		$mac = str_replace(":","-",$mac);
-		$jAction = $pieces[1];
-		$lAction = $pieces[2];
-		$desc = $pieces[3];
-		$desc = str_replace("+","<br>",$desc);
-		$link = "'trackList.php?trackRemove=true&mac=" . $mac . "&jAction=". $jAction . "&lAction=" . $lAction . "'";
-		$trackTable = $trackTable . '<tr id="trackName" style="cursor:pointer;"><td style="padding-left: 20px;font-size:18px;">' . strtoupper($desc) . '</td><td onclick="window.location = '.$link.';" style="display: inline-block;float: right;margin-right: 20px;width: 25px;height: 25px;background-image: url(images/delete.png);background-size: cover;background-repeat: no-repeat;background-position: center center;margin-top: 20px;opacity: 0.2;"></td></tr><tr id="verticalSpace"></tr>';
-	}
-}
-
 ?>
 
 <!DOCTYPE HTML>
@@ -92,13 +93,6 @@ foreach($trackList as $track){
 	</head>
 
 	<body id="body">
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: 800px;">
-                        <tr id="headerRow">
-                                <td id="headerCell"><a href="index.php"><img id="logo" src="images/tx_animation.gif?<?php echo date('Ymdgis');?>"></a><div id="logoText" style="display: inline;color:<?php echo $offColor; ?>;padding-top: 10px;vertical-align: top;">ELECTRO</div>PI <font id="subtitle" style="color:#707070;padding-top: 10px;vertical-align: top;font-size: 24px;">TRACKING LIST</font></td>
-                        </tr>
-			<tr id="verticalSpace"></tr>
-			<tr id="verticalSpace"></tr>
-                </table>
 
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: 800px;">
 			<tr><td><a href="index.php" style="color:<?php echo $offColor; ?>;">ELECTROPI</a> >> <a href="setup.php" style="color:<?php echo $offColor; ?>;">CONFIG</a> >> DEVICE TRACKING ACTIONS</td></tr>

@@ -1,5 +1,7 @@
 <?php
 include("password_protect.php");
+$title = "DEVICES";
+
 $onColor = readSetting("ONCOLOR");
 $offColor = readSetting("OFFCOLOR");
 $uiScale = readSetting("UI_SCALE");
@@ -93,14 +95,6 @@ foreach($deviceList as $device){
 	</head>
 
 	<body id="body">
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: 800px;">
-                        <tr id="headerRow">
-                                <td id="headerCell"><a href="index.php"><img id="logo" src="images/tx_animation.gif?<?php echo date('Ymdgis');?>"></a><div id="logoText" style="display: inline;color:<?php echo $offColor; ?>;padding-top: 10px;vertical-align: top;">ELECTRO</div>PI <font id="subtitle" style="color:#707070;padding-top: 10px;vertical-align: top;font-size: 24px;">DEVICE LIST</font></td>
-                        </tr>
-			<tr id="verticalSpace"></tr>
-			<tr id="verticalSpace"></tr>
-                </table>
-
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: 800px;">
 			<tr><td><a href="index.php" style="color:<?php echo $offColor; ?>;">ELECTROPI</a> >> <a href="setup.php" style="color:<?php echo $offColor; ?>;">CONFIG</a> >> <a href="security.php" style="color:<?php echo $offColor; ?>;">SECURITY</a> >> TRUSTED DEVICE LIST</td></tr>
                         <tr id="verticalSpace"></tr>

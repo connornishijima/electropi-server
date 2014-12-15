@@ -7,11 +7,29 @@
 	$IP = $_SERVER['REMOTE_ADDR'];
 	$haptic = readSetting("HAPTIC");
 
+	if($title == "NOTITLE"){
+		$title = "";
+	}
+
 	if($beta == "ENABLED"){
 		$betaVisibility = "x";
 	}
 	else{
 		$betaVisibility = "none";
+	}
+
+	if($hideHeader == True){
+		$headerVisibility = "none";
+	}
+	else{
+		$headerVisibility = "block";
+	}
+
+	if($hideSettings == True){
+		$settingsVisibility = "none";
+	}
+	else{
+		$settingsVisibility = "table-cell";
 	}
 
 	$specialColorEnabled = trim(file_get_contents("misc/special/colorEnabled"));
@@ -375,3 +393,12 @@ $(function(){  // $(document).ready shorthand
 <div class="shade"></div>
 <div id="wrapper">
 <div id="headerSpace"></div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;display:<?php echo $headerVisibility;?>;">
+	<tr id="headerRow">
+		<td id="headerCell"><a href="index.php"><img id="logo" src="images/tx_animation_slow.gif?<?php echo date('Ymdgis');?>"></a><font id="logoText" style="color:<?php echo $offColor; ?>;padding-top: 10px;vertical-align: top;">ELECTRO</font>PI <font style="font-size: 30px;vertical-align: super;"><?php echo $title;?></font></td>
+		<td id="horizontalSpace"></td>
+		<td id="settingsBtn" style="display:<?php echo $settingsVisibility;?>;"><a href="setup.php"><span style="width: 64px;height: 64px;position: absolute;margin-top: -32px;"></span></a></td>
+	</tr>
+	<tr id="verticalSpace"></tr>
+</table>

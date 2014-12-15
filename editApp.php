@@ -1,6 +1,7 @@
 <?php
-include("password_protect.php");
-include("appLookup.php");
+	include("password_protect.php");
+	include("appLookup.php");
+	$title = "EDIT";
 
 	if(isset($_GET["uid"])){
 		$appUID = $_GET["uid"];
@@ -100,14 +101,6 @@ include("appLookup.php");
 	</head>
 
 	<body id="body">
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;">
-                        <tr id="headerRow">
-                                <td id="headerCell"><a href="index.php"><img id="logo" src="images/tx_animation.gif?<?php echo date('Ymdgis');?>"></a><div id="logoText" style="display: inline;color:<?php echo $onColor; ?>;padding-top: 10px;vertical-align: top;">ELECTRO</div>PI <font id="subtitle" style="color:#707070;padding-top: 10px;vertical-align: top;font-size: 24px;">EDIT</font></td>
-                        </tr>
-			<tr id="verticalSpace"></tr>
-			<tr id="verticalSpace"></tr>
-                </table>
-
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;">
 		<tr><td><div id="alert">Settings updated. <a href="index.php" style="white-space: nowrap;color: <?php echo $offColor; ?>;">Return to control?</a></div></td></tr>
 		</table>

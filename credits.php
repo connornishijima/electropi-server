@@ -1,5 +1,7 @@
 <?php
 	include("settings.php");
+	$title = "CREDITS";
+
 	$uiScale = readSetting("UI_SCALE");
 	$onColor = readSetting("ONCOLOR");
 	$offColor = readSetting("OFFCOLOR");
@@ -36,21 +38,6 @@
 	</head>
 
 	<body id="body">
-		<div style="display:<?php echo $logoVisible;?>;position: absolute;top: 0px;bottom: 0px;width: 100%;text-align: center;background-color: #242424;z-index: 10;">
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="height:100%;">
-			<tr>
-				<td style="font-size:24px;">WELCOME TO <font style="color:#00ffbe;">ELECTRO</font>PI</td>
-			</tr>
-		</table>
-		</div>
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: 800px;">
-			<tr id="headerRow">
-				<td id="headerCell"><a href="index.php"><img id="logo" src="images/tx_animation_slow.gif?<?php echo date('Ymdgis');?>"></a><font id="logoText" style="color:<?php echo $offColor; ?>;padding-top: 10px;vertical-align: top;">ELECTRO</font>PI CREDITS</td>
-				<td id="horizontalSpace"></td>
-				<td id="settingsBtn"><a href="setup.php"><span style="width: 64px;height: 64px;position: absolute;margin-top: -32px;"></span></a></td>
-			</tr>
-			<tr id="verticalSpace"></tr>
-		</table>
 		<div id="main">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: 800px;">
 			<tr id="creditRow">

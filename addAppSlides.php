@@ -10,6 +10,8 @@
 		return $randomString;
 	}
 
+	$hideHeader = True;
+
         $onColor = readSetting("ONCOLOR");
         $offColor = readSetting("OFFCOLOR");
         $uiScale = readSetting("UI_SCALE");

@@ -1,6 +1,6 @@
 <?php
 	include("password_protect.php");
-	$title = "CONFIG";
+	$title = "BACKUPS";
 	$hideSettings = True;
 
 	$onColor = readSetting("ONCOLOR");
