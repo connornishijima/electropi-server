@@ -377,6 +377,12 @@ def scheduleCheck():
 					print "EVENT",nickS,"HAPPENING!"
 					urllib2.urlopen("http://192.168.1.88/"+webDir+"system.php?type=ACTION&AID="+AID)
 
+def backupCheck():
+	with open("misc/backup.state") as f:
+		bState = f.read()
+	if bState == "1":
+		os.system("sudo python export.py")
+
 timeoutCheck()
 global breatheDirection
 global breatheLevel
@@ -437,13 +443,8 @@ while True:
 		colorWrite("blue")
 		blipCount = 0
 		timeoutCheck()
-	
-#		GPIO.output(txPin,1)
-#		time.sleep(0.02)
-#		GPIO.output(txPin,0)
-#		time.sleep(0.02)
-
 		scheduleCheck()
+		backupCheck()
 
 	if bloopCount >= 60:
 		colorWrite("red")
@@ -451,23 +452,8 @@ while True:
 		bloopCount = 0
 
 	
-	f = open("conf/updating.state","r")
-	updating = f.read()
-	f.close()
-
-	if updating == "TRUE":
-		print "------------------------------------"
-		print "-------CHECKING FOR UPDATE----------"
-		print "------------------------------------\n"
-		time.sleep(2)
-		os.system("sudo python conf/update.py")
-		print "\n------------------------------------"
-		print "------UPDATE CHECK FINISHED---------"
-		print "------------------------------------\n"
-
-	f = open("misc/time.txt","w")
-	f.write(str(time.time()))
-	f.close()
+	with open("misc/time.txt","w") as f:
+		f.write(str(time.time()))
 
 	with open("misc/command."+freq+".list","r") as f:
 		command = f.read()

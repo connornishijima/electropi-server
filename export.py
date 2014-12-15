@@ -1,4 +1,6 @@
 print "ELECTROPI EPC EXPORTER\n"
+
+from time import gmtime, strftime
 import os
 
 epcString = ""
@@ -78,9 +80,16 @@ os.system("sudo cp -R conf/actions conf/temp")
 print "BACKING UP CLIENTS..."
 os.system("sudo cp -R conf/clients conf/temp")
 
+t = strftime("%Y-%m-%d-%H-%M-%S_", gmtime())
+
 with open("conf/temp/restore.list","w+") as f:
 	f.write(epcString)
 os.chdir("conf/temp")
 print "ZIPPING BACKUP..."
-os.system("sudo zip -r restore.epc .")
+os.system("sudo zip -r "+t+"restore.epc .")
 print "DONE!"
+
+os.chdir("../../misc")
+
+with open("backup.state","w") as f:
+	f.write("0")

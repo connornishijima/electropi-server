@@ -5,7 +5,12 @@
 
 	$onColor = readSetting("ONCOLOR");
 	$offColor = readSetting("OFFCOLOR");
-	$updated = "FALSE";
+	$updated = "False";
+
+	if($_GET["export"] == "true"){
+		file_put_contents("misc/backup.state","1");
+		die("EXPORTING!");
+	}
 
 	if(isset($_POST["updated"])){
 		$updated = "TRUE";
@@ -13,8 +18,19 @@
 		$command = file_get_contents("misc/command.list");
 		file_put_contents("misc/command.list",$command . "\nRST-FAST\n");
 	}
-?>
 
+	$fileLink = "NO BACKUPS YET!";
+	$dir = "conf/temp/";
+	$filesList = scandir($dir);
+	foreach($filesList as &$file){
+		$filename = $file;
+		$file = explode(".",$file);
+		if($file[1] == "epc"){
+			$fileLink = "<a href='conf/temp/".$filename."'>".$filename."</a>";
+		}
+	}
+
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -41,6 +57,46 @@
 
     			});
 
+		function doExport(){
+			$('#dummy').load("backup.php?export=true");
+			var status = document.getElementById("exportStatus");
+			status.innerHTML = "EXPORTING! PLEASE WAIT...";
+			setInterval(checkRefresh,500);
+		}
+
+		function checkRefresh(){
+        var ajaxRequestN;  // The variable that makes Ajax possible!
+
+        try{
+                // Opera 8.0+, Firefox, Safari
+                ajaxRequestN = new XMLHttpRequest();
+        } catch (e){
+                // Internet Explorer Browsers
+        try{
+                ajaxRequestN = new ActiveXObject('Msxml2.XMLHTTP');
+        } catch (e) {
+        try{
+                ajaxRequestN = new ActiveXObject('Microsoft.XMLHTTP');
+        } catch (e){
+                // Something went wrong
+                alert('Your browser broke!');
+                return false;
+        }
+        }
+        }
+        // Create a function that will receive data sent from the server
+        ajaxRequestN.onreadystatechange = function(){
+                if(ajaxRequestN.readyState == 4){
+                        if(ajaxRequestN.responseText == "0"){
+				window.location = "backup.php";
+			}
+                }
+        };
+        ajaxRequestN.open('POST', 'misc/backup.state', true);
+        ajaxRequestN.send(null);
+
+		}
+
 		</script>
 
 	</head>
@@ -56,18 +112,18 @@
 			<tr id="verticalSpace"></tr>
 		</table>
 		<br>
-		<form action="setup.php" method="POST">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;background-color: #181818;">
 			<tr>
 				<td><div id="settingHeader">EXPORT</td>
+				<td id="exportStatus" style="padding: 10px;text-align:right;">LAST BACKUP: <?php echo $fileLink;?></td>
 			</tr>
 			<tr>
-				<td style="padding: 10px;">Use this to export a *.epc (ElectroPi Configuration) file.</td>
+				<td style="padding: 10px;text-align:left;">Use this to export a *.epc (ElectroPi Configuration) file.</td>
+				<td style="padding: 10px;text-align:right;"><input type="submit" value="EXPORT" onclick="doExport();" style="width: 100px;height: 50px;border: none;background-color: <?php echo $offColor; ?>;font-family: 'Oswald', sans-serif;font-size: 20px;margin-bottom: 5px;margin-right: 5px;"></input></td>
+
 			</tr>
 
 		</table>
-		<input type="hidden" name="updated" value="TRUE">
-		</form>
 
 		<br>
 
