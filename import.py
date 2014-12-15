@@ -121,9 +121,11 @@ epcFile = sys.argv[1]
 print epcFile
 
 os.chdir("conf/temp")
-os.system('sudo find . ! -name "*.epc" -exec rm -rf {} \;')
+os.system("sudo mv uploads/*.epc .")
+os.system("sudo rm uploads/*")
+os.system('sudo find . ! -name "uploads" ! -name "'+epcFile+'" -exec rm -rf {} \;')
 
-os.system("sudo unzip restore.epc")
+os.system("sudo unzip "+epcFile)
 
 os.system("sudo cp -R actions ..")
 os.system("sudo cp -R clients ..")
@@ -154,3 +156,9 @@ for item in restoreList:
 			insertTrack(value)
 		if type == "ROOT":
 			insertRoot(value)
+
+os.chdir("../..")
+with open("misc/import.state","w") as f:
+	f.write("0")
+
+print "IMPORT SUCCESSFUL!"

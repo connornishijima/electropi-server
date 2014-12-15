@@ -19,3 +19,4 @@
 /var/www/misc/notification.txt
 /var/www/misc/rebootStatus.txt
 /var/www/conf/pids/pids.list
+/var/www/conf/temp/uploads/*

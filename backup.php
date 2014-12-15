@@ -2,21 +2,28 @@
 	include("password_protect.php");
 	$title = "BACKUPS";
 	$hideSettings = True;
+	$import = "0";
 
 	$onColor = readSetting("ONCOLOR");
 	$offColor = readSetting("OFFCOLOR");
 	$updated = "False";
 
 	if($_GET["export"] == "true"){
-		file_put_contents("misc/backup.state","1");
+		file_put_contents("misc/export.state","1");
 		die("EXPORTING!");
 	}
 
-	if(isset($_POST["updated"])){
-		$updated = "TRUE";
-		file_put_contents("misc/notification.txt","CONFIGURATION UPDATED! | " . $_SERVER['REMOTE_ADDR']);
-		$command = file_get_contents("misc/command.list");
-		file_put_contents("misc/command.list",$command . "\nRST-FAST\n");
+	if($_POST["import"] == "true"){
+		$import = "1";
+		file_put_contents("misc/import.state",$_FILES["fileToUpload"]["name"]);
+
+		$target_dir = "conf/temp/uploads/";
+		$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+		$uploadOk = 1;
+		if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+		} else {
+		    echo "Sorry, there was an error uploading your file.";
+		}
 	}
 
 	$fileLink = "NO BACKUPS YET!";
@@ -54,6 +61,11 @@
 				if(<?php echo json_encode($updated);?> == "TRUE"){
 					$( "#alert" ).toggle();
 				}
+				if(<?php echo json_encode($import);?> == "1"){
+					var status = document.getElementById("importStatus");
+		                        status.innerHTML = "IMPORTING! PLEASE WAIT...";
+		                        setInterval(checkIRefresh,500);
+				}
 
     			});
 
@@ -61,10 +73,10 @@
 			$('#dummy').load("backup.php?export=true");
 			var status = document.getElementById("exportStatus");
 			status.innerHTML = "EXPORTING! PLEASE WAIT...";
-			setInterval(checkRefresh,500);
+			setInterval(checkERefresh,500);
 		}
 
-		function checkRefresh(){
+		function checkERefresh(){
         var ajaxRequestN;  // The variable that makes Ajax possible!
 
         try{
@@ -92,7 +104,40 @@
 			}
                 }
         };
-        ajaxRequestN.open('POST', 'misc/backup.state', true);
+        ajaxRequestN.open('POST', 'misc/export.state', true);
+        ajaxRequestN.send(null);
+
+		}
+
+		function checkIRefresh(){
+        var ajaxRequestN;  // The variable that makes Ajax possible!
+
+        try{
+                // Opera 8.0+, Firefox, Safari
+                ajaxRequestN = new XMLHttpRequest();
+        } catch (e){
+                // Internet Explorer Browsers
+        try{
+                ajaxRequestN = new ActiveXObject('Msxml2.XMLHTTP');
+        } catch (e) {
+        try{
+                ajaxRequestN = new ActiveXObject('Microsoft.XMLHTTP');
+        } catch (e){
+                // Something went wrong
+                alert('Your browser broke!');
+                return false;
+        }
+        }
+        }
+        // Create a function that will receive data sent from the server
+        ajaxRequestN.onreadystatechange = function(){
+                if(ajaxRequestN.readyState == 4){
+                        if(ajaxRequestN.responseText == "0"){
+				window.location = "backup.php";
+			}
+                }
+        };
+        ajaxRequestN.open('POST', 'misc/import.state', true);
         ajaxRequestN.send(null);
 
 		}
@@ -127,17 +172,19 @@
 
 		<br>
 
-		<form action="setup.php" method="POST">
+		<form action="backup.php" method="POST" enctype="multipart/form-data">
                 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-left:auto;margin-right:auto;max-width: <?php echo $maxWidth;?>px;background-color: #181818;">
 			<tr>
 				<td><div id="settingHeader">IMPORT</td>
+				<td id="importStatus" style="text-align:right;"><input type="file" name="fileToUpload" id="fileToUpload" style="width: 190px;float: right;"></td>
 			</tr>
 			<tr>
 				<td style="padding: 10px;">Use this to import a *.epc (ElectroPi Configuration) file.</td>
+				<td style="padding: 10px;text-align:right;"><input type="submit" value="IMPORT" style="width: 100px;height: 50px;border: none;background-color: <?php echo $offColor; ?>;font-family: 'Oswald', sans-serif;font-size: 20px;margin-bottom: 5px;margin-right: 5px;"></input></td>
 			</tr>
 
                 </table>
-		<input type="hidden" name="updated" value="TRUE">
+		<input type="hidden" name="import" value="true">
                 </form>
 
 		<div id="dummy" style="display:none"></div>

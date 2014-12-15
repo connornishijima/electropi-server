@@ -377,11 +377,19 @@ def scheduleCheck():
 					print "EVENT",nickS,"HAPPENING!"
 					urllib2.urlopen("http://192.168.1.88/"+webDir+"system.php?type=ACTION&AID="+AID)
 
-def backupCheck():
-	with open("misc/backup.state") as f:
-		bState = f.read()
-	if bState == "1":
+def exportCheck():
+	with open("misc/export.state") as f:
+		eState = f.read()
+	if eState == "1":
+		print "EXPORT!"
 		os.system("sudo python export.py")
+
+def importCheck():
+	with open("misc/import.state") as f:
+		iState = f.read()
+	if iState != "0":
+		print "IMPORT!"
+		os.system("sudo python import.py "+iState)
 
 timeoutCheck()
 global breatheDirection
@@ -444,7 +452,8 @@ while True:
 		blipCount = 0
 		timeoutCheck()
 		scheduleCheck()
-		backupCheck()
+		importCheck()
+		exportCheck()
 
 	if bloopCount >= 60:
 		colorWrite("red")

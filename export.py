@@ -74,7 +74,10 @@ with open("conf/root.directory") as f:
 	epcString = epcString + "ROOT $ " + root + "\n"
 
 print "DELETING TEMP FOLDER..."
+os.system("sudo mv conf/temp/uploads conf")
 os.system("sudo rm -R conf/temp/*")
+os.system("sudo mv conf/uploads conf/temp")
+
 print "BACKING UP ACTIONS..."
 os.system("sudo cp -R conf/actions conf/temp")
 print "BACKING UP CLIENTS..."
@@ -91,5 +94,5 @@ print "DONE!"
 
 os.chdir("../../misc")
 
-with open("backup.state","w") as f:
+with open("export.state","w") as f:
 	f.write("0")

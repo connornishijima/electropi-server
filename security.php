@@ -147,6 +147,10 @@
 			</tr>
 			<tr id="verticalSpace"></tr>
 			<tr>
+			<td><a href="backup.php"><div id="linkButton">BACKUP/RESTORE</div></a></td>
+			</tr>
+			<tr id="verticalSpace"></tr>
+			<tr>
 			<td><a href="logs"><div id="linkButton">VIEW LOGS</div></a></td>
 			</tr>
 			<tr id="verticalSpace"></tr>
