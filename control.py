@@ -1,11 +1,11 @@
-#
+#----------------------------------------------------------------------------
 # ElectroPi RF/Wemo Control Watchdog
 #
 # This script is responsible for passing commands from system.php or elsewhere
 # to tx.py for transmission. It reports it's uptime to timeout_watch.py which
-# makes sure this script isn't stuck. Though it shouldn't be. I've worked my
+# makes sure this script isn't stuck. Though it better not be. I've worked my
 # ass off on this god damn system. Grr. Better safe than sorry. ;)
-#
+#-----------------------------------------------------------------------------
 
 # Import modules
 from __future__ import division
@@ -47,7 +47,7 @@ pidTime = 0
 # FUNCTION TO CHECK IF THIS SCRIPT HAS TIMED OUT
 def timeoutCheck():
 	global pidTime
-        pid = os.getpid()
+        pid = os.getpid() # Get this process's PID
         print "Checking PID",str(pid),"timeout..."
         with open("conf/pids/pids.list") as f:
                 pids = f.read()
