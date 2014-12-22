@@ -1,3 +1,12 @@
+#
+# ElectroPi RF/Wemo Control Watchdog
+#
+# This script is responsible for passing commands from system.php or elsewhere
+# to tx.py for transmission. It reports it's uptime to timeout_watch.py which
+# makes sure this script isn't stuck. Though it shouldn't be. I've worked my
+# ass off on this god damn system. Grr. Better safe than sorry. ;)
+#
+
 # Import modules
 from __future__ import division
 import os
@@ -8,42 +17,6 @@ import sys
 import RPi.GPIO as GPIO
 import argparse
 import urllib2
-
-# Check what the ElectroPi root directory is:
-with open("/etc/ep.root") as f:
-        rootDir = f.read().strip("\n")
-with open("/etc/ep-web.root") as f:
-        webDir = f.read().strip("\n")
-
-os.chdir(rootDir) # Move Python session into that root dir.
-
-global pidTime # Init the pidTime variable for timeoutWatch.py
-pidTime = 0
-
-# These are to keep the logs at a reasonable size. Under normal use, this is only run once per day at 4AM.
-with open(rootDir+"/logs/client_watch.log","w") as f:
-	f.write("")
-with open(rootDir+"/logs/control_watch.log","w") as f:
-	f.write("")
-with open(rootDir+"/logs/notifications.log","w") as f:
-	f.write("")
-with open(rootDir+"/logs/wemo_watch.log","w") as f:
-	f.write("")
-with open("/var/log/apache2/error.log","w") as f:
-	f.write("")
-with open("/var/log/apache2/access.log","w") as f:
-	f.write("")
-
-# This copies stdout to a log
-class Logger(object):
-    def __init__(self):
-        self.terminal = sys.stdout
-        self.log = open(rootDir+"/logs/control_watch.log", "a")
-
-    def write(self, message):
-        self.terminal.write(message)
-        self.log.write(message)
-sys.stdout = Logger()
 
 print " "
 print "///////////////////////////////////////////////////////////////////////"
@@ -60,30 +33,20 @@ print " "
 print "///////////////////////////////////////////////////////////////////////"
 print " "
 
-# define output pins...
-txPin = 18
-rPin = 11
-gPin = 15
-bPin = 13
+# Check what the ElectroPi root directory is:
+with open("/etc/ep.root") as f:
+        rootDir = f.read().strip("\n")
+with open("/etc/ep-web.root") as f:
+        webDir = f.read().strip("\n")
+os.chdir(rootDir) # Move Python session into that root dir.
 
-# set up GPIO...
-GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BOARD)
+global pidTime
+pidTime = 0
 
-GPIO.setup(txPin,GPIO.OUT)
-GPIO.setup(rPin,GPIO.OUT)
-GPIO.setup(gPin,GPIO.OUT)
-GPIO.setup(bPin,GPIO.OUT)
-
-rPWM = GPIO.PWM(rPin,50)
-gPWM = GPIO.PWM(gPin,50)
-bPWM = GPIO.PWM(bPin,50)
-
-rPWM.start(0)
-gPWM.start(100)
-bPWM.start(100)
-
+#//////////////////////////////////////////////
+# FUNCTION TO CHECK IF THIS SCRIPT HAS TIMED OUT
 def timeoutCheck():
+	global pidTime
         pid = os.getpid()
         print "Checking PID",str(pid),"timeout..."
         with open("conf/pids/pids.list") as f:
@@ -101,8 +64,6 @@ def timeoutCheck():
         with open("conf/pids/"+str(pid)+".txt","w+") as f:
                 f.write(str(pidTime))
 
-timeoutCheck()
-
 #//////////////////////////////////////////////
 # FUNCTION TO NOTIFY WEB UI
 def notify(notification):
@@ -111,9 +72,10 @@ def notify(notification):
 		f.write(notification)
 	with open("logs/notifications.log","a") as f:
 		f.write(currentTime + " | " + notification  + "\n")
-
 #//////////////////////////////////////////////
 
+#//////////////////////////////////////////////
+# FUNCTION TO RECOVER AFTER A POWER OUTAGE
 def powerRecover():
 	statesToDo = []
 	count = 0
@@ -144,6 +106,7 @@ def powerRecover():
 			command = "sudo ./tx "+txCode+" "+repeat
 			os.system(command)
 			count += 1
+#//////////////////////////////////////////////
 
 #//////////////////////////////////////////////
 # FUNCTION TO HANDLE RESTARTS...
@@ -238,11 +201,6 @@ def writeSetting(newName,newValue):
 	print "SETTING WROTE: " + newName + "=" + newValue
 #//////////////////////////////////////////////
 
-#----------------------------------------------------------- READ SETTINGS YOU NEED HERE!
-ledBrightness = int(readSetting("BRIGHTNESS"))
-rgbLed = readSetting("RGBLED")
-freq = readSetting("FREQ_ATTACHED")
-
 #//////////////////////////////////////////////
 # READ ALL APPLIANCES FUNCTION
 def readAllAppliances():
@@ -300,26 +258,6 @@ def colorWrite(color):
 	                gPWM.ChangeDutyCycle(100)
 	                bPWM.ChangeDutyCycle(100-brightness)
 #//////////////////////////////////////////////
-# FUNCTION TO BREATHE LED
-def ledBreathe():
-	if rgbLed == "ENABLED":
-		global breatheDirection
-		global breatheLevel
-		multiplier = ledBrightness / 100
-	
-		if breatheDirection == "UP":
-			breatheLevel += 1 * multiplier
-			if breatheLevel >= ledBrightness:
-				breatheDirection = "DOWN"
-		if breatheDirection == "DOWN":
-			breatheLevel -= 1 * multiplier
-			if breatheLevel <= 0:
-				breatheDirection = "UP"
-	
-		rPWM.ChangeDutyCycle(100)
-        	gPWM.ChangeDutyCycle(100)
-        	bPWM.ChangeDutyCycle(100-int(breatheLevel))
-#//////////////////////////////////////////////
 
 #//////////////////////////////////////////////
 # FUNCTION TO HANDLE COMMANDS
@@ -333,11 +271,11 @@ def parseCommand(command):
 		os.system(com)
 	if type == "RST":
 		restart_program("NORM")
-	if type == "RST-FAST":
-		restart_program("FAST")
 	if type == "MANUAL":
 		print "MANUAL"
 
+#//////////////////////////////////////////////
+# FUNCTION TO HANDLE SCHEDULED EVENTS
 def scheduleCheck():
 	global lastString
 
@@ -368,23 +306,91 @@ def scheduleCheck():
 				if timeString == eventTime:
 					print "EVENT",nickS,"HAPPENING!"
 					urllib2.urlopen("http://192.168.1.88/"+webDir+"system.php?type=ACTION&AID="+AID)
+#//////////////////////////////////////////////
 
+#//////////////////////////////////////////////
+# FUNCTION TO CREATE A .epc FILE
 def exportCheck():
 	with open("misc/export.state") as f:
 		eState = f.read()
 	if eState == "1":
 		print "EXPORT!"
 		os.system("sudo python export.py")
+#//////////////////////////////////////////////
 
+#//////////////////////////////////////////////
+# FUNCTION TO USE A .epc FILE
 def importCheck():
 	with open("misc/import.state") as f:
 		iState = f.read()
 	if iState != "0":
 		print "IMPORT!"
 		os.system("sudo python import.py "+iState)
+#//////////////////////////////////////////////
 
+
+
+# SETUP /////////////////////////////////////////////////////////////////////////////////
+
+timeoutCheck() # Let timeout_watch.py know that we're alive and well.
+
+#----------------------------------------------------------- READ SETTINGS YOU NEED HERE!
+ledBrightness = int(readSetting("BRIGHTNESS"))
+rgbLed = readSetting("RGBLED")
+freq = readSetting("FREQ_ATTACHED") #                                                   
+#---------------------------------------------------------------------------------------!
+
+#global pidTime # Init the pidTime variable for timeoutWatch.py
+pidTime = 0
 global lastString
 lastString = "X"
+blipCount = 1
+bloopCount = 1
+
+# These are to keep the logs at a reasonable size. Under normal use, this is only run once per day at 4AM.
+with open(rootDir+"/logs/client_watch.log","w") as f:
+	f.write("")
+with open(rootDir+"/logs/control_watch.log","w") as f:
+	f.write("")
+with open(rootDir+"/logs/notifications.log","w") as f:
+	f.write("")
+with open(rootDir+"/logs/wemo_watch.log","w") as f:
+	f.write("")
+with open("/var/log/apache2/error.log","w") as f:
+	f.write("")
+with open("/var/log/apache2/access.log","w") as f:
+	f.write("")
+
+# This copies stdout to a log
+class Logger(object):
+    def __init__(self):
+        self.terminal = sys.stdout
+        self.log = open(rootDir+"/logs/control_watch.log", "a")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+sys.stdout = Logger()
+
+# define output pins...
+rPin = 11
+gPin = 15
+bPin = 13
+
+# set up GPIO...
+GPIO.setmode(GPIO.BOARD)
+
+GPIO.setup(rPin,GPIO.OUT)
+GPIO.setup(gPin,GPIO.OUT)
+GPIO.setup(bPin,GPIO.OUT)
+
+rPWM = GPIO.PWM(rPin,50)
+gPWM = GPIO.PWM(gPin,50)
+bPWM = GPIO.PWM(bPin,50)
+
+rPWM.start(0)
+gPWM.start(100)
+bPWM.start(100)
 
 try:
 	argument = sys.argv[1]
@@ -407,11 +413,6 @@ if argument == "NONE" or argument == "NORM":
 		notify("IMPROPER REBOOT!");
 		powerRecover()
 
-settings = readAllSettings()
-aList = readAllAppliances()
-blipCount = 1
-bloopCount = 1
-
 if rgbLed == "ENABLED":
 	fade = 0
 	while fade < 100:
@@ -420,6 +421,10 @@ if rgbLed == "ENABLED":
 		time.sleep(0.005)
 else:
 	colorWrite("kill")
+
+	
+# BEGIN /////////////////////////////////////////////////////////////////////////////////
+timeoutCheck() # Let timeout_watch.py know that we're alive and well.
 
 while True:
 	time.sleep(0.1)
@@ -430,7 +435,7 @@ while True:
 	if blipCount > 5:
 		colorWrite("blue")
 		blipCount = 0
-		timeoutCheck()
+		timeoutCheck() # Let timeout_watch.py know that we're alive and well.
 		scheduleCheck()
 		importCheck()
 		exportCheck()
@@ -458,4 +463,5 @@ while True:
 			colorWrite("green")
 			print "!------------------------------------------------ RECEIVED COMMAND: " + item
 			parseCommand(item)
+
 
