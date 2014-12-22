@@ -9,15 +9,15 @@ import RPi.GPIO as GPIO
 import argparse
 import urllib2
 
-# Check what the ElectroPi root directory is:
+# Get Root directory of ElectroPi
 with open("/etc/ep.root") as f:
         rootDir = f.read().strip("\n")
 with open("/etc/ep-web.root") as f:
         webDir = f.read().strip("\n")
 
-os.chdir(rootDir) # Move Python session into that root dir.
+os.chdir(rootDir) # Change to that root directory
 
-global pidTime # Init the pidTime variable for timeoutWatch.py
+global pidTime # Initialize pidTime variable to work with 
 pidTime = 0
 
 # These are to keep the logs at a reasonable size. Under normal use, this is only run once per day at 4AM.
@@ -34,7 +34,6 @@ with open("/var/log/apache2/error.log","w") as f:
 with open("/var/log/apache2/access.log","w") as f:
 	f.write("")
 
-# This copies stdout to a log
 class Logger(object):
     def __init__(self):
         self.terminal = sys.stdout
@@ -43,7 +42,11 @@ class Logger(object):
     def write(self, message):
         self.terminal.write(message)
         self.log.write(message)
+
 sys.stdout = Logger()
+
+def dprint(string):
+	print string
 
 print " "
 print "///////////////////////////////////////////////////////////////////////"
@@ -114,6 +117,8 @@ def notify(notification):
 
 #//////////////////////////////////////////////
 
+timeoutCheck()
+
 def powerRecover():
 	statesToDo = []
 	count = 0
@@ -144,6 +149,8 @@ def powerRecover():
 			command = "sudo ./tx "+txCode+" "+repeat
 			os.system(command)
 			count += 1
+
+timeoutCheck()
 
 #//////////////////////////////////////////////
 # FUNCTION TO HANDLE RESTARTS...
@@ -204,6 +211,7 @@ def readSetting(searchName):
 #//////////////////////////////////////////////
 # WRITE SINGLE SETTING FUNCTION...
 def writeSetting(newName,newValue):
+
 	outLines = []
 	found = 0
 
@@ -238,6 +246,7 @@ def writeSetting(newName,newValue):
 	print "SETTING WROTE: " + newName + "=" + newValue
 #//////////////////////////////////////////////
 
+timeoutCheck()
 #----------------------------------------------------------- READ SETTINGS YOU NEED HERE!
 ledBrightness = int(readSetting("BRIGHTNESS"))
 rgbLed = readSetting("RGBLED")
@@ -383,6 +392,12 @@ def importCheck():
 		print "IMPORT!"
 		os.system("sudo python import.py "+iState)
 
+timeoutCheck()
+global breatheDirection
+global breatheLevel
+breatheDirection = "UP"
+breatheLevel = 0
+
 global lastString
 lastString = "X"
 
@@ -393,6 +408,7 @@ except:
 
 print "Argument:",argument
 
+timeoutCheck()
 if argument == "NONE" or argument == "NORM":
 	print "STARTING WATCHDOG..."
 
@@ -407,6 +423,10 @@ if argument == "NONE" or argument == "NORM":
 		notify("IMPROPER REBOOT!");
 		powerRecover()
 
+elif argument == "FAST":
+	print "Watchdog starting in fast mode. Update check skipped."
+
+timeoutCheck()
 settings = readAllSettings()
 aList = readAllAppliances()
 blipCount = 1
@@ -422,6 +442,7 @@ else:
 	colorWrite("kill")
 
 while True:
+
 	time.sleep(0.1)
 	colorWrite("kill")
 	blipCount += 1
@@ -458,4 +479,3 @@ while True:
 			colorWrite("green")
 			print "!------------------------------------------------ RECEIVED COMMAND: " + item
 			parseCommand(item)
-
