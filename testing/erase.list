@@ -1,3 +1,4 @@
+/var/www/conf/api.keys
 /var/www/conf/app.order
 /var/www/conf/appliances.txt
 /var/www/conf/applianceStates.txt

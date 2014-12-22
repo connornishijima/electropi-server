@@ -177,6 +177,12 @@
 					<td class="settingValue"><input id="setText" type="text" name="freq" value="<?php echo $freq;?>"></input></td>
                         </tr>
 			<tr id="verticalSpace"></tr>
+			<tr id="settingRow">
+                                        <td id="settingName">UID</td>
+                                        <td id="horizontalSpaceConfig"></td>
+					<td class="settingValue"><input id="setText" type="text" value="<?php echo $appUID;?>"></input></td>
+                        </tr>
+			<tr id="verticalSpace"></tr>
 		</table>
 		</form>
 
