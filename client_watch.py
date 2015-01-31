@@ -144,10 +144,10 @@ def checkTrack(mac,state):
 			if mac == macL:
 				if state == "JOIN":
 					print "DO ACTION:",jAction
-					response = urllib2.urlopen("http://192.168.1.88/system.php?type=ACTION&AID="+jAction)
+					response = urllib2.urlopen("http://127.0.0.l/system.php?type=ACTION&AID="+jAction)
 				elif state == "LEAVE":
 					print "DO ACTION:",lAction
-					response = urllib2.urlopen("http://192.168.1.88/system.php?type=ACTION&AID="+lAction)
+					response = urllib2.urlopen("http://127.0.0.1/system.php?type=ACTION&AID="+lAction)
 
 def getInterfaces():
         listf = ""
