@@ -5,6 +5,10 @@ import os
 import psutil
 import sys
 
+pid = os.getpid()
+with open("/tmp/client.pid","w") as f:
+	f.write(str(pid))
+
 with open("/etc/ep.root") as f:
 	rootDir = f.read().strip("\n")
 
