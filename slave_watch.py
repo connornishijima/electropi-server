@@ -4,7 +4,7 @@ import os
 import commands
 
 pid = os.getpid()
-with open("tmp/slave.pid","w") as f:
+with open("/tmp/slave.pid","w") as f:
 	f.write(str(pid))
 
 with open("/etc/ep.root") as f:
