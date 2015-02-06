@@ -2,6 +2,10 @@ import os
 import time
 import signal
 
+pid = os.getpid()
+with open("/tmp/timeout.pid","w") as f:
+	f.write(str(pid))
+
 pids = {}
 pidStuck = {}
 timeout = 10
