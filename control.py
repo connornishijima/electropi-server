@@ -10,7 +10,7 @@ import argparse
 import urllib2
 
 pid = os.getpid()
-with open("tmp/control.pid","w") as f:
+with open("/tmp/control.pid","w") as f:
 	f.write(str(pid))
 
 with open("/etc/ep.root") as f:
