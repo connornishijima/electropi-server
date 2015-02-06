@@ -6,6 +6,10 @@ import sys
 from ouimeaux.environment import Environment
 import urllib2
 
+pid = os.getpid()
+with open("/tmp/wemo.pid","w") as f:
+	f.write(str(pid))
+
 with open("/etc/ep.root") as f:
         rootDir = f.read().strip("\n")
 os.chdir(rootDir)
