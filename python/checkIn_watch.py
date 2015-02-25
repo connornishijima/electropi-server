@@ -92,11 +92,11 @@ def checkDeviceTimes():
 		print skipBeat
 		ourTime = getTimeSum()
 		print "LOG TIME:",str(logTime),"PI TIME:",str(ourTime)
-		if int(logTime) < int(ourTime) - deviceInterval:
+		if int(logTime) < int(ourTime) - 60:
 			print "X"
 			if int(ourTime) < int(deviceInterval):
 				newTime = 86400+ourTime
-				if logTime < newTime-int(deviceInterval):
+				if logTime < ourTime-60:
 					logIs = "GOOD"
 				else:
 					logIs = "BAD"
